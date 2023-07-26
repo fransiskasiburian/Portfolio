@@ -10,9 +10,9 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
-  --accent-color: #0134db;
-  --background-color: #88a2fa;
-  --background-color-2: #0134db;
+  --accent-color: #9E6F21;
+  --background-color: #FFEEB3;
+  --background-color-2: #9E6F21;
   --light-grey: rgb(194, 194, 194);
   --border-radius: 30px;
 }
