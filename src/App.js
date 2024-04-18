@@ -3,11 +3,13 @@ import emailjs from '@emailjs/browser'
 import { toast, ToastContainer } from 'react-toastify'
 
 import './App.css'
-import profilePicture from './assets/image/profile.jpg'
+import profilePicture from './assets/image/profile.png'
 import sembuh from './assets/image/sembuh.jpg'
 import fithappy from './assets/image/fithappy.jpg'
 import syncargo from './assets/image/syncargo.jpg'
 import andalingo from './assets/image/andalingo.jpg'
+import opel from './assets/image/OPEL.jpeg'
+import supersafe from './assets/image/Supersafe.jpeg'
 
 function App () {
   const [loading, setLoading] = useState(false)
@@ -111,7 +113,7 @@ function App () {
               ></a>
             </div>
             <a
-              href='https://drive.google.com/file/d/1cxRR_d9f7aBF9tHO9hgSxRUpkpGlfrEf/view?usp=sharing'
+              href='https://drive.google.com/file/d/1BgB9QqP2y3olCwblAi88OGxrFy83ygI4/view?usp=sharing'
               target='_blank'
               className='cta'
             >
@@ -173,6 +175,45 @@ function App () {
             <section className='content-card projects' id='projects'>
               <h1>Projects</h1>
               <div className='col-2 project-list'>
+              <div className='project-tile'>
+                  <img src={opel} alt='' />
+                  <div className='overlay'>
+                    <div className='project-description'>
+                      <h3>OPEL</h3>
+                      <p>
+                        Operation Excellent App (OPEL) is a reporting application with a dynamic 
+                        input format according to the format changed by the admin. This application 
+                        is also used for RITASE reporting by field operators. This reporting can be 
+                        made online or offline.
+                      </p>
+                      {/* <a
+                        href='https://play.google.com/store/apps/details?id=com.syncargo'
+                        target='_blank'
+                      >
+                        click here
+                      </a> */}
+                    </div>
+                  </div>
+                </div>
+                <div className='project-tile'>
+                  <img src={supersafe} alt='' />
+                  <div className='overlay'>
+                    <div className='project-description'>
+                      <h3>Supersafe</h3>
+                      <p>
+                        Supersafe is used for reporting KTA/TTA data and as a means of disseminating 
+                        news and HSE regulations. This reporting can be made online or offline.
+                      </p>
+                      <a
+                        href='https://play.google.com/store/apps/details?id=com.antam.supersafe&pcampaignid=web_share'
+                        target='_blank'
+                      >
+                        click here
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
                 <div className='project-tile'>
                   <img src={syncargo} alt='' />
                   <div className='overlay'>
@@ -259,20 +300,39 @@ function App () {
               <h1>Experience</h1>
               <div className='timeline'>
                 <div className='timeline-items'>
+                <div className='timeline-item'>
+                    <div className='timeline-date'>2023 - Present</div>
+                    <div className='timeline-content'>
+                      <h3>PT Berca Hardayaperkasa (Client: PT ANTAM Tbk)</h3>
+                      <h4>- OPEL</h4>
+                      <p>
+                        The purpose of this project is developing a reporting application with a dynamic 
+                        input format according to the format changed by the admin. This application 
+                        is also used for RITASE reporting by field operators. This reporting can be 
+                        made online or offline.
+                      </p>
+                      <h4>- Supersafe</h4>
+                      <p>
+                        The purpose of this project is developing application that use for 
+                        reporting KTA/TTA data and as a means of disseminating 
+                        news and HSE regulations. This reporting can be made online or offline.
+                      </p>
+                    </div>
+                  </div>
                   <div className='timeline-item'>
-                    <div className='timeline-date'>2022 - now</div>
+                    <div className='timeline-date'>2022 - 2023</div>
                     <div className='timeline-content'>
                       <h3>PT Eximku Teknologi Indonesia (Andalin)</h3>
                       <h4>- Syncargo</h4>
                       <p>
-                        The purpose of this project is developing an freight
+                        The purpose of this project is developing a freight
                         forwarders application that helps company to create
                         quotations, view quotation details, reject/cancel
                         quotations and manage customer data.
                       </p>
                       <h4>- Andalin Go</h4>
                       <p>
-                        The purpose of this project is developing an freight
+                        The purpose of this project is developing a freight
                         forwarders application that helps customer to create
                         shipments, accept quotations (order prices) and monitor
                         shipments. Customer can also chat with agent service
